@@ -1,0 +1,137 @@
+body{
+    background-image: url("LAB.jpg");
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: scroll;
+}
+.heading{
+    width:100%;
+    float:right;
+    background: linear-gradient(to right, rgb(43, 255, 0), rgb(192, 255, 234));
+   height: 50px;
+   border: 2px ;
+  border-radius: 8px;
+}
+.left{
+    text-align: left;
+}
+
+th{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+    padding: 20px;
+    text-align: right;
+
+}
+
+
+h2 {
+    text-align:left;
+    color:whitesmoke;
+}
+
+.contenido{
+    width:50%;
+    height: 250px;
+    text-align:right;
+    background-color: #ffff;
+    color:green;
+    border: 2px ;
+  border-radius: 8px;
+}
+.star{
+    text-align:left;
+}
+.contenido th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+
+}
+.contenido td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  .gota{
+    float:left;
+    width:42px;height:42px;
+    
+}
+
+.cannaplant{
+    width: 300px;
+    height: 300px; 
+    border-radius:50%;
+    float: right;
+    margin-right: 25%;
+   
+}
+.sobremi{
+    background-color: #ffff;
+    width:50%;
+    height: 250px;
+    text-align:right;
+    background-color: #ffff;
+    color:green;
+    float:right;
+    border: 2px ;
+  border-radius: 8px;
+}
+
+.sobremi th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+
+}
+.yo{
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    float: left;
+    margin-left: 25%;
+}
+.contacto{
+    background-color: #ffff;
+    width:50%;
+    height: 250px;
+    text-align:right;
+    background-color: #ffff;
+    color:green;
+    float:left;
+    border: 2px ;
+  border-radius: 8px;
+}
+.contacto th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+
+}
+.gmail{
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+    float: right;
+    margin-left: 25%;
+   
+}
+form{
+    background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
+    color:whitesmoke;
+}
+form input{
+    border: 4px ;
+    border-radius: 8px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
+    display: right;
+    justify-content: space-around;
+}
+.inter{
+    width:70px;
+    height: 70px;
+    float:right;
+}
