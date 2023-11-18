@@ -12,8 +12,21 @@ body{
    border: 2px ;
   border-radius: 8px;
 }
+.heading2{
+    width:100%;
+    float:right;
+    background: linear-gradient(to right, rgb(43, 255, 0), rgb(192, 255, 234));
+   height: 50px;
+   border: 2px ;
+  border-radius: 8px;
+  font-size:40px;
+  
+ 
+
+}
 .left{
-    text-align: left;
+    text-align: center;
+    color: #80877A;
 }
 
 th{
@@ -98,7 +111,10 @@ h2 {
     color:green;
     float:left;
     border: 2px ;
-  border-radius: 8px;
+    border-radius: 8px;
+  border-collapse: collapse;
+  border-top-color: black;
+  border-bottom-color:black ;
 }
 .contacto th{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -106,8 +122,8 @@ h2 {
 
 }
 .gmail{
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
     border-radius:50%;
     float: right;
     margin-left: 25%;
@@ -126,12 +142,24 @@ h3{
 }
 .foot{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align:right;
+    text-align:center;
     display: right;
     justify-content: space-around;
+    background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
+    color:whitesmoke;
 }
+.foot th{
+    text-align:center;
+
+}
+
 .inter{
-    width:70px;
-    height: 70px;
+    width:200px;
+    height:200px;
+    float:center;
+}
+.redes{
+    width:60px;
+    height:60px;
     float:right;
 }
