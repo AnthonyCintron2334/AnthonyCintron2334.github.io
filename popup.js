@@ -1,6 +1,6 @@
 Swal.fire({
-    title: "Restriccion de Edad",
-    text:"Tienes 21 anos?",
+    title: "Restricción de Edad",
+    text:"¿Tienes 21 años?",
     icon: "warning",
     showCancelButton: true,
     confirmButtonColor: "#3085d6",
@@ -18,8 +18,8 @@ Swal.fire({
         result.dismiss === Swal.DismissReason.cancel
       ) {
         Swal.fire({
-          title: "Sitio NO Apto",
-          text: "No tienes la edad necesaria para acceder a esta pagina",
+          title: "Sitio NO Apto para menores",
+          text: "No tienes la edad necesaria para acceder a esta página, se recomienda discreción",
           icon: "error"
         });
     }
