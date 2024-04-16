@@ -12,14 +12,68 @@
 
 
 <style>
-    h1{
+    @media(max-width:800px){ 
+        h1{
         text-align: center;
         color:rgb(154, 201, 83);
     }
-table{
-    width:35%;
-    height: 300px;
-    margin:auto;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: green;
+      }
+.container{
+
+width: 100%;
+display:flex;
+max-width: 1100px;
+
+}
+.card{
+
+width: 100%;
+margin:20px;
+border-radius:6px;
+overflow: hidden;
+background:#fff;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+cursor:default;
+transition:all 400ms ease;
+
+}
+.card:hover{
+    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+    transform:translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card .contenido{
+    padding:15px;
+    text-align:center;
+}
+.card .contenido p{
+line-height:1.5;
+color:#6a6a6a;
 }
 h2{
     color:rgb(154, 201, 83);
@@ -97,11 +151,109 @@ iframe{
     color:#3e5a28;
     font-family:Arial, Helvetica, sans-serif;
 }
-.gota{
-    float:left;
-    width:42px;height:42px;
-    
+
+
+    }
+   
+    @media(min-width:600px){
+        h1{
+        text-align: center;
+        color:rgb(154, 201, 83);
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: green;
+      }
+.container{
+
+width: 100%;
+display:flex;
+max-width: 1100px;
+
 }
+.card{
+
+width: 100%;
+margin:20px;
+border-radius:6px;
+overflow: hidden;
+background:#fff;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+cursor:default;
+transition:all 400ms ease;
+}
+.card:hover{
+    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+    transform:translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card .contenido{
+    padding:15px;
+    text-align:center;
+}
+.card .contenido p{
+line-height:1.5;
+color:#6a6a6a;
+}
+
+.foot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    width:100%;
+    display: right;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
+    color:whitesmoke;
+}
+.foot th{
+    text-align:center;
+}
+form{
+    background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
+    color:whitesmoke;
+}
+form input{
+    border: 4px ;
+    border-radius: 8px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+iframe{
+ margin: 0 auto;
+ display: block;
+}
+    }
+    
 
 </style>
 
@@ -110,160 +262,67 @@ iframe{
 
 </head>
 <body>
-    <table class="heading">
-        <tr>
-            <th><img src="gotaverde.png" alt="una gota dibujada de manera animada coloreada de verde" class="gota"></th>
-           <th class="left">InfoCannaForYou</th>
-        <th><a href="contenido.html" class="left">Contenido</a></th>
-        <th><a href="Sobre mi.html" class="left">Sobre Mí</a></th>
-        <th><a href="Contacto1.html" class="left">Contacto</th>
-        </tr>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="contenido.html">Contenido</a></li>
+        <li><a href="Contacto1.html">Contact</a></li>
+        <li><a href="Sobre mi.html">About</a></li>
+      </ul>
         
-    </table>
-    <br>
-    <br>
-    <h1>Funciones del <i>Cannabis</i> Medicinal</h1>
- <hr>
- <br>
- <p></p>
-<br>
-<table border="1">
-<tr>
-<th>THC</th>
-<th>CBD</th>
-</tr>
-<tr>
-    <td><a href="https://essencevegas.com/es/blog-es/que-es-el-delta-8-thc/"><img src="thc8.jpg" alt="molecula del THC " class="molecula"></a></td>
-    <td><a href="https://beehealthymx.lat/"><img src="cbd.png" alt="molecula del CBD " class="molecula"></a></td>
-</tr>
-<tr>
-    <td>El <b>Δ-9-tetrahidrocannabinol</b>, comúnmente conocido como <b>THC</b>, es el componente <b>psicoactivo</b> (que altera la percepción y el estado de ánimo) más importante 
-        y abundante de la planta de cannabis en variedades clasificadas específicamente como <b>psicoactivas</b>.
-        Los cannabinoides con efectos <b>psicoactivos</b> son el <b>THC</b>, el cannabinol y el <b>delta-8-THC</b>, siendo el THC el más potente y abundante.
+   
+<div class="container">
 
-    </td>
+<div class="card">
+    <figure>
+        <img src="cbd.png" >
+    </figure>
+    <div class="contenido">
+        <h3>Beneficios del cannabis</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perferendis ex quae, ipsa consequatur illum, eveniet repellendus 
+            odit quasi eligendi numquam beatae eaque quod hic labore deleniti. Rem est quos perferendis.</p>
+        <a href="#">Leer mas</a>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="plantacana.jpg" >
+        </figure>
+        <div class="contenido">
+            <h3>Beneficios del cannabis</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis ex quae, ipsa consequatur illum, eveniet repellendus 
+                odit quasi eligendi numquam beatae eaque quod hic labore deleniti. Rem est quos perferendis.</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="licencia.jpg" >
+            </figure>
+            <div class="contenido">
+                <h3>Beneficios del cannabis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis ex quae, ipsa consequatur illum, eveniet repellendus 
+                    odit quasi eligendi numquam beatae eaque quod hic labore deleniti. Rem est quos perferendis.</p>
+                <a href="#">Leer mas</a>
+            </div>
+</div>
 
-    <td>El aceite de <i>cannabis</i> rico en <b>CBD</b> se utiliza como complemento o complemento dietético, tratamiento tópico o tratamiento <u>farmacológico para aliviar el dolor crónico</u>, <u>la inflamación en la enfermedad inflamatoria 
-    intestinal</u> o <u>la enfermedad de la piel</u>, <u>la ansiedad</u>, <u>la depresión o la gravedad y frecuencia de las convulsiones en la epilepsia refractaria.</u>
-    También se utiliza para tratar síntomas de enfermedades neurológicas o neuropsiquiátricas como la esclerosis múltiple, la enfermedad de Alzheimer, 
-    la enfermedad de Parkinson o la esquizofrenia.
-
-</td>
-</tr>
-</table>
-<br>
-<table border="1" >
-    <tr>
-    <th >Sativa</th>
-    <th colspan="2">Indica</th>
-    </tr>
-
-    <tr>
-        <td ><a href="https://www.badgramm3r.com/blog/everything-to-know-about-sativa-strains/"><img src="sativa.jpg" alt="diferencia entre la planta sativa e indica del canabis" class="sativa" ></a></td>
-        <td ><a href="https://silverstemcannabis.com/news-articles/what-is-better-for-first-time-cannabis-use-indica-or-sativa"><img src="canaaa.jpeg" alt="diferencia entre la planta sativa e indica del canabis" class="sativa" ></a></td>
-
-    </tr>
-    <tr >
-        <td><ul type="square">
-            <li>Alivia el estrés</li>
-            <li>Efecto energizante</li>
-            <li>Creatividad</li>
-            <li>Aumenta la concentración</li>
-            <li>Antiinflamatorio(aceite)</li>
-            <li>Antoxidante(aceite)</li>
-        </ul></td>
-        
+</div>
 
 
 
-        <td >
-            <ul type="square"> 
-            <li>Propiedades relajantes</li>
-            <li>Efectiva contra el insomnio</li>
-            <li>Aumenta el apetito</li>
-            <li>Relajación muscular</li>
-            <li>Alivia los dolores crónicos</li>
-            <li>Efectiva contra la Ansiedad</li>
-        </ul>
-        
-        
-        
-        
-        </td>
-    </tr>
-    
-</table>
-<br>
-<br>
-
-<h2>Uso Responsable del <i>Cannabis</i></h2>
-<!--Aqui estaba colocada la imagen -->
-<h4>Formas de utilizarlo</h4>
-<ol>
-<li>Fumarlo</li>
-<li>Vaporizado</li>
-<li>Aceite</li>
-<li>Bebidas</li>
-<summary><li>Comestibles</li></summary>
-<details><ul>
-    <li>Gomitas</li>
-    <li>Brownies</li>
-    <li>Galletas</li>
-</ul>
-</details>
-    
-</ol>
-
-<h4>Precauciones a tener en consideración</h4>
-<ol>
-<li>Controlar las cantidades</li>
-<br>
-<li>Consultar con tu médico</li>
-<br>
-<li>Usarlo solo cuando aparezcan los síntomas</li>
-<br>
-<li>Edad recomendada de uso 25 años</li>
-<br>
-<li>Al tener esta licencia no puedes obtener la <a href="https://policia.pr.gov/formularios-de-solicitud-y-renovacion-licencias-de-armas/"
- target="_blank">Licencia de portación de armas</a> 
-    </li>
-    <br>
-    <li>Cumplir con las normas y<a href="https://www.salud.pr.gov/CMS/DOWNLOAD/4865#:~:text=Se%20proh%C3%ADbe%20su%20uso%20en,esos%20fines%20por%20la%20Junta." target="_blank">
-      Leyes de Consumo del país</a>
-     </li>
-</ol>
-<br>
-<br>
-
-<h2>¿Cómo obtengo la licencia del <i>cannabis</i> medicinal?</h2>
-
-<p><a href="https://tetrapr.com/cuida-de-ti/como-obtener-la-licencia-de-cannabis-medicinal/" target="_blank">En esta sección encontrarás algunos de los requerimientos 
-    generales que se necesitan</a></p>
-<br>
-<ul>
-<li>Tener al menos 21 años</li>
-<br>
-<li>Tener evidencia médica </li>
-<br>
-<li>Presentar una identificación (CESCO,Licencia de conducir,etc.)</li>
-<br>
-<li>Vivir en Puerto Rico</li>
-<br>
-<li>Tener alguna de las condiciones mencionadas que aplican para este tratamiento.</li>
-</ul>
 
 
-<br>
-<h3><a href="https://dispensariosonline.com/store-list/" target="_blank">Algunos Dispensarios en Puerto Rico</a></h3>
-<ul>
-<li><a href="https://tetrapr.com/" target="_blank">Tetrapr</a></li>
-<br>
-<li><a href="https://clinicaverdepr.com/es/" target="_blank">Clínica Verde</a> </li>
-<br>
-<li><a href="https://weedcopr.com/" target="_blank">Weedcopr</a></li>
 
 
-</ul>
+
+
+
+
+
+
+
+
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xtuCGJlqjFI?si=J6m91POofE7K-7yX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
