@@ -1,5 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@media(max-width:800px){
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh !important;
+  background: url(backgorund.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.title{
+  margin-bottom: 40px;
+  font-size: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p{
+  margin-bottom: 40px;
+  font-size: 18px;
+  color:#fff;
+  padding:0 100px
+
+}
+.btn{
+display:inline-block;
+margin-top: 15px;
+padding: 10px 40px;
+border:2px solid #9c2;
+color:#fff;
+text-decoration: none;
+background: rgb(202, 243, 106);
+
+}
+.btn:hover{
+  background: none;
+}
+
+.btn-home{
+  display:flex;
+
+}
+
+.btn-home a{
+  margin: 0 10px;
+}
+
+.content{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sau{
+  padding: 30px;
+  background: rgb(162, 192, 90);
+}
+
+.box-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+text-align: center;
+}
+.box-container .box{
+
+height: 11rem;
+width: 17rem;
+background:rgb(108, 121, 78) ;
+text-align: center;
+border-radius:1rem;
+box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+margin: 2rem;
+
+}
+.box-container .box i{
+  height:3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #9c2;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.box-container .box h3{
+  font-size:20px;
+  color:#9c2;
+}
+.box-container .box p{
+  padding: 0 15px;
+  font-size:16px;
+
+}
+.about{
+  background: #9c2;
+}
+.price{
+  background: url(LAB.jpg)no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.contact{
+  padding-top:20px;
+  background: #9c2;
+  padding-bottom: 0;
+
+}
+
+
+@media(max-width:768px){
+  .title{
+    margin-bottom: 0;
+    font-size: 40px;
+
+
+
+  }
+  .sau{
+    height:100vh;
+  }
     ul {
         list-style-type: none;
         margin: 0;
@@ -23,169 +165,14 @@
       li a:hover {
         background-color: green;
       }
-    .paginahogar{
-        background-image: url("LAB.jpg");
-        background-repeat: repeat-y;
-        background-position: right top;
-        background-attachment: scroll;
-    }
-    .heading{
-        width:10px;
-        float:right;
-        background: linear-gradient(to right, rgb(43, 255, 0), rgb(192, 255, 234));
-       height: 50px;
-       border: 2px ;
-      border-radius: 100px;
-    }
-    .heading2{
-        width:100%;
-        float:right;
-        background: linear-gradient(to right, rgb(43, 255, 0), rgb(192, 255, 234));
-       height: 50px;
-       border: 2px ;
-      border-radius: 8px;
-      font-size:40px;
-      
-     
     
-    }
-    .left{
-        text-align: right;
-        color: #80877A;
-    }
-    .gota{
-        float:right;
-        width:42px;height:42px;
-        
-    }
-    .contenido{
-         text-align: center;
-        width:100%;
-        height: 250px;
-        text-align:right;
-        background-color: #ffff;
-        color:green;
-        border: 2px ;
-      border-radius: 8px;
-      padding:40px;
-    } 
-    .contenido th {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:45px;
-        text-align: center;
-    
-    }
-    .contenido td{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .cannaplant{
-        width: 300px;
-        height: 350px; 
-        border-radius:50%;
-        float: right;
-        margin-right: 25%;
-        margin-right: 10%;
-        padding: 30px;
-       
-    }
-    th{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:whitesmoke;
-        padding: 12px;
-        text-align: right;
-    
-    }
-    
-    
-    h2 {
-        text-align:left;
-        color:whitesmoke;
-    }
-    
-    
-    
-    .star{
-        text-align:left;
-    }
-    .sobremi{
-        background-color: #ffff;
-        width:100%;
-        height: 250px;
-       
-        background-color: #ffff;
-        color:green;
-        float:right;
-        border: 2px ;
-      border-radius: 8px;
-    }
-    
-    .sobremi th{
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:45px;
-    
-    }
-    .yo{
-        width: 350px;
-        height: 350px;
-        border-radius:50%;
-        float: right;
-        margin-left: 20%;
-        margin-right: 5%;
-        padding:50px;
-    }
 
-    .contacto{
-        background-color: #ffff;
-        width:100%;
-        height: 250px;
-        text-align:right;
-        background-color: #ffff;
-        color:green;
-        float:left;
-        border: 2px ;
-        border-radius: 8px;
-     
+
     }
-    .contacto th{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:45px;
-        text-align: center;
-    
-    }
-    .gmail{
-        width: 280px;
-        height: 280px;
-        border-radius:50%;
-        float: right;
-        margin-left: 25%;
-        margin: 20px;
-        margin-right: 15%;
-        padding: 30px;
-       
-    }
-    .foot{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align:center;
-        display: flex;
-        justify-content: space-around;
-        background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
-        color:whitesmoke;
-        padding: 80px;
-    }
-    
-    .foot th{
-        text-align:center;
-    
-    }
-    
-    .inter{
-        width:200px;
-        height:200px;
-        float:center;
-    }
-    
-}
+   
+
+
+
 
 
 
@@ -193,14 +180,7 @@
 
 
 @media(min-width:600px){
-    .heading{
-        width:100%;
-        float:right;
-        background: linear-gradient(to right, rgb(43, 255, 0), rgb(192, 255, 234));
-       height: 50px;
-       border: 2px ;
-      border-radius: 100px;
-    }
+   
     ul {
         list-style-type: none;
         margin: 0;
@@ -224,246 +204,7 @@
       li a:hover {
         background-color: green;
       }
-    .gota{
-        float:right;
-        width:42px;height:42px;
-        
-    }
-    .left{
-        text-align: center;
-        color: #80877A;
-    }
-    .contenido{
    
-        width:50%;
-        height: 250px;
-        text-align:right;
-        background-color: #ffff;
-        color:green;
-        border: 2px ;
-      border-radius: 8px;
-    }
-    .contenido th {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:45px;
-    
-    }
-    .contenido td{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .cannaplant{
-        width: 300px;
-        height: 300px; 
-        border-radius:50%;
-        float: right;
-        margin-right: 25%;
-       
-    }
-    .paginahogar{
-        background-image: url("LAB.jpg");
-        background-repeat: repeat-y;
-        background-position: right top;
-        background-attachment: scroll;
-    }
-    
-    
-    
-    th{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:whitesmoke;
-        padding: 20px;
-        text-align: right;
-    
-    }
-    
-    
-    h2 {
-        text-align:left;
-        color:whitesmoke;
-    }
-    
-    
-    
-    .star{
-        text-align:left;
-    }
-    
-    
-      
-    
-    
-    .sobremi{
-        background-color: #ffff;
-        width:50%;
-        height: 250px;
-        text-align:right;
-        background-color: #ffff;
-        color:green;
-        float:right;
-        border: 2px ;
-      border-radius: 8px;
-    }
-    
-    .sobremi th{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:45px;
-    
-    }
-    .yo{
-        width: 300px;
-        height: 300px;
-        border-radius:50%;
-        float: left;
-        margin-left: 25%;
-    }
-    .contacto{
-        background-color: #ffff;
-        width:50%;
-        height: 250px;
-        text-align:right;
-        background-color: #ffff;
-        color:green;
-        float:left;
-        border: 2px ;
-        border-radius: 8px;
-     
-    }
-    .contacto th{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:45px;
-    
-    }
-    .gmail{
-        width: 280px;
-        height: 280px;
-        border-radius:50%;
-        float: right;
-        margin-left: 25%;
-       
-    }
-    form{
-        background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
-        color:whitesmoke;
-    }
-    form input{
-        border: 4px ;
-        border-radius: 8px;
-    }
-    h3{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .foot{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align:center;
-        display: right;
-        justify-content: space-around;
-        background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
-        color:whitesmoke;
-    }
-    
-    .foot th{
-        text-align:center;
-    
-    }
-    
-    .inter{
-        width:200px;
-        height:200px;
-        float:center;
-    }
-    .redes{
-        width:60px;
-        height:60px;
-        float:right;
-    }
-    
-    .paginacontacto{
-     font-family: 'Roboto', sans-serif;
-     background-color: #f4f0f0;
-    
-    min-height:100vh ;
-    
-    }
-    .form1{
-        background-color: #ffff;
-        margin: auto;
-        width: 90%;
-        max-width: 400px;
-        padding: 4.5em 3em;
-        margin-top: 100px;
-        border-radius: 10px;
-        box-shadow: 0 5px 10px -5px rgb(0, 0, 0/30%);
-    
-    }
-    .form_title{
-        font-size: 2rem;
-        margin-bottom: .5em;
-    }
-    .form_paragraph{ 
-        font-weight: 300;
-    
-    }
-    .form_container{
-        margin-top: 3em;
-        display: grid;
-        gap: 2.5em;
-    }
-    .form_group{
-        position: relative;
-        --color: #f8f7f77e;
-    }
-    .form_input{
-        width: 100%;
-        background: none;
-        color: #fffbfb;
-        font-size:1rem;
-        padding: .6em .3em;
-        border: none;
-        outline: none;
-        border-bottom:1px solid var(--color);
-    }
-    .form_label{
-        color:var(--color);
-        cursor: pointer;
-        position: absolute;
-        top: 0;
-        left: 5px;
-        transform:translateY(10px);
-        transition: transform .5s, color .3s;
-    }
-    .form_input:focus + .form_label ,
-    .form_input:not(:placeholder-shown) + .form_label{
-        transform: translateY(-12px) scale(.7);
-        transform-origin: left top;
-        color:#3cb04c;
-    }
-    
-    .form_submit{
-        background: rgb(0, 146, 19); 
-        color:#ffff;
-        font-family: 'Roboto' , sans-serif;
-        font-weight: 300;
-        font-size: 1rem;
-        padding: .8em 0;
-        border:none;
-        border-radius: .5em;
-    }
-    .form_line{
-        position:absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 1px;
-        background-color: #3cb04c;
-        transform: scale(0);
-        transform: left bottom;
-        transition: transform .4s ;
-    }
-    .form_input:focus + .form_line,
-    .form_input:not(:placeholder-shown) + .form_line
-    {
-        transform: scale(1);
-    }
 
 
 }
