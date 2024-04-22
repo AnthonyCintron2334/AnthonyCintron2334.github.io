@@ -85,8 +85,8 @@ text-align: center;
 }
 .box-container .box{
 
-height: 11rem;
-width: 17rem;
+height: 13rem;
+width: 25rem;
 background:rgb(108, 121, 78) ;
 text-align: center;
 border-radius:1rem;
@@ -118,15 +118,17 @@ margin: 2rem;
   background: #9c2;
 }
 .price{
-  background: url(LAB.jpg)no-repeat center;
+  background: url(labclinico.jpg)no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
 }
 .contact{
-  padding-top:20px;
-  background: #9c2;
-  padding-bottom: 0;
+
+  background:url(fondoverde.jpg)no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
 
 }
 
@@ -175,11 +177,11 @@ margin: 2rem;
         justify-content: center;
         flex-wrap: wrap;
       text-align: center;
-      margin-bottom: 150px;
+      margin-bottom: 180px;
       }
       .box-container .box {
-        height: 11rem;
-        width: 17rem;
+        height: 13rem;
+        width: 25rem;
         background: rgb(108, 121, 78);
         text-align: center;
         border-radius: 1rem;
@@ -210,15 +212,19 @@ margin: 2rem;
         background: #9c2;
       }
       .price{
-        background: url(LAB.jpg)no-repeat center;
+      
+        background: url(labclinico.jpg)no-repeat center;
         background-attachment: fixed;
         background-size: cover;
         text-align: center;
+        align-items: center;
       }
       .contact{
-        padding-top:20px;
-        background: #9c2;
-        padding-bottom: 0;
+        background:url(fondoverde.jpg)no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+      
       
       }
 
