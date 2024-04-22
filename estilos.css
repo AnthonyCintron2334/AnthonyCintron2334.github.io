@@ -131,9 +131,9 @@ margin: 2rem;
 }
 
 
-@media(max-width:768px){
+@media(max-width:900px){
   .title{
-    margin-bottom: 0;
+    margin:0 ;
     font-size: 40px;
 
 
@@ -141,6 +141,10 @@ margin: 2rem;
   }
   .sau{
     height:100vh;
+  }
+  .content {
+    height: auto ; /* Cambia la altura a automático para que se ajuste al contenido en dispositivos más pequeños */
+    padding: 0; /* Agrega un relleno para separar el contenido de los bordes de la pantalla */
   }
     ul {
         list-style-type: none;
@@ -166,7 +170,57 @@ margin: 2rem;
         background-color: green;
       }
     
-
+      .box-container{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      text-align: center;
+      margin-bottom: 150px;
+      }
+      .box-container .box {
+        height: 11rem;
+        width: 17rem;
+        background: rgb(108, 121, 78);
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+        margin:50px; /* Se reduce el margen para evitar intercalaciones */
+      }
+      .box-container .box i{
+        height:3rem;
+        width: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        background: #9c2;
+        font-size: 2rem;
+        margin: 1rem 0;
+      }
+      .box-container .box h3{
+        font-size:20px;
+        color:#9c2;
+      }
+      .box-container .box p{
+        padding: 0 15px;
+        font-size:16px;
+      
+      }
+      .about{
+        background: #9c2;
+      }
+      .price{
+        background: url(LAB.jpg)no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+      }
+      .contact{
+        padding-top:20px;
+        background: #9c2;
+        padding-bottom: 0;
+      
+      }
 
     }
    
