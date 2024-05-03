@@ -12,6 +12,31 @@
 <title>Sobre Mí</title>
 
 <style>
+    @media(max-width:900px){
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: green;
+      }
+    
 .yo{
     width: 400px;
     height: 400px;
@@ -36,6 +61,7 @@
 .itsme{
 	margin-right: 500px;
     margin-left: 100px;
+    width: 400px; /* Ancho deseado para el contenedor de texto */
 }
 form{
     background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
@@ -57,20 +83,100 @@ form input{
     text-align:center;
 
 }
+    }
+
+    @media(min-width:600px){
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: green;
+      }
+    
+.yo{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 28%;
+    padding: 10px;
+}
+.contacto{
+    background-color: #ffff;
+    width:50%;
+    height: 250px;
+    text-align:right;
+    background-color: #ffff;
+    color:green;
+    float:left;
+
+}
+.casa{
+	float: right;
+	margin: 50px;;
+}
+.itsme {
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+form{
+    background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
+    color:whitesmoke;
+}
+form input{
+    border: 4px ;
+    border-radius: 8px;
+}
+.foot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    display: right;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, rgb(74, 77, 74), rgb(41, 43, 42));
+    color:whitesmoke;
+}
+.foot th{
+    text-align:center;
+
+}
+    }
 </style>
 </head>
 
 
 <body >
 <h1 style="text-align:center;color:green;">Sobre mí</h1>
-<hr>
+
+<ul>
+    <li><a class="active" href="HomePage.html">Home</a></li>
+    <li><a href="contenido.html">Tarjetas</a></li>
+    <li><a href="Contacto1.html">Contact</a></li>
+    <li><a href="Sobre mi.html">About</a></li>
+  </ul>
 <br>
 
 <img src="mifoto.jpg"  class="yo">
 
 <h2 style="text-align:right;color:green;" class="itsme">Anthony J. Cintrón Almodóvar</h2>
 
-<p style="text-align:right;font-family:verdana;" class="itsme">¡Saludos a todos!, mi nombre es <b>Anthony J. Cintrón
+<p  class="itsme">¡Saludos a todos!, mi nombre es <b>Anthony J. Cintrón
 	Almodóvar</b>. Vivo en Puerto Rico y estudio en la Universidad Interamericana de Puerto Rico en el recinto de Ponce.
 	Actualmente me encuentro cursando el 4to año del  <i>Bachillerato de Ciencias con concentración en Redes y Telecomunicaciones</i>, con una subconcentración
 	en <i>Ciencia de Computadoras</i>.
