@@ -12,7 +12,8 @@
 
 
 <style>
-    @media(max-width:800px){ 
+   
+   @media(max-width:800px){ 
         h1{
         text-align: center;
         color:rgb(154, 201, 83);
@@ -203,60 +204,65 @@ iframe{
       li a:hover {
         background-color: green;
       }
-.container{
+      @media (min-width: 600px) {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-width: 100%;
-display:flex;
-
-
-}
-.card{
-
-width: 100%;
-margin:20px;
-border-radius:6px;
-overflow: hidden;
-background:#fff;
-box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-cursor:default;
-transition:all 400ms ease;
-}
-.card:hover{
-    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
-    transform:translateY(-3%);
-}
-.card img{
-    width: 100%;
-    height: 200px;
-}
-.card .contenido{
-    padding:15px;
-    text-align:center;
-}
-.card .contenido p{
-line-height:1.5;
-color:#6a6a6a;
-}
-.card .contenido h3{
-    font-weight:400px;
-    margin-bottom: 15px;
-}
-.card .contenido a{
-    text-decoration:none;
-    display:inline-block;
-    padding: 10px;
-    margin-top:10px;
-    color:rgb(154, 201, 83);
-    border:1px solid rgb(154, 201, 83);
-    border-radius:4px;
-    transition:all 400ms ease;
-}
-.card .contenido a:hover{
-    background: #b8d8a0;
-    color:#fff;
+    .card {
+        max-width: 400px; /* Establece un ancho máximo para las tarjetas */
+        width: 100%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
     
-
-}
+    .card:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+    }
+    
+    .card img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .card .contenido {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .card .contenido p {
+        line-height: 1.5;
+        color: #6a6a6a;
+    }
+    
+    .card .contenido h3 {
+        font-weight: 400px;
+        margin-bottom: 15px;
+    }
+    
+    .card .contenido a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        color: rgb(154, 201, 83);
+        border: 1px solid rgb(154, 201, 83);
+        border-radius: 4px;
+        transition: all 400ms ease;
+    }
+    
+    .card .contenido a:hover {
+        background: #b8d8a0;
+        color: #fff;
+    }
 
 .foot{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -293,8 +299,13 @@ iframe{
  display: block;
 }
     }
-    
+}
 
+</style>
+
+    
+   
+   
 </style>
 
 
@@ -303,8 +314,8 @@ iframe{
 </head>
 <body>
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="contenido.html">Contenido</a></li>
+        <li><a class="active" href="HomePage.html">Home</a></li>
+        <li><a href="contenido.html">Tarjetas</a></li>
         <li><a href="Contacto1.html">Contact</a></li>
         <li><a href="Sobre mi.html">About</a></li>
       </ul>
@@ -323,25 +334,23 @@ iframe{
     </div>
     <div class="card">
         <figure>
-            <img src="gmail.png" >
+            <img src="medicinacana.webp" >
         </figure>
         <div class="contenido">
-            <h3>Contacto</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Perferendis ex quae, ipsa consequatur illum, eveniet repellendus 
-                odit quasi eligendi numquam beatae eaque quod hic labore deleniti. Rem est quos perferendis.</p>
-            <a href="Contacto1.html">Leer mas</a>
+            <h3>Cannabis Medicinal en Puerto Rico</h3>
+            <p>El Cannabis medicinal tienes sus beneficios, basados en estudios cientificos.
+                Este se puede utilizar de manera segura siempre y cuando se sepan las normas del mismo.
+            </p>
+            <a href="https://www.salud.pr.gov/CMS/364#:~:text=%E2%80%9C8.,su%20resina%20incluyendo%20el%20cannabidiol.">Leer mas</a>
         </div>
         <div class="card">
             <figure>
-                <img src="mifoto.jpg" >
+                <img src="cannabis-indica.jpg" >
             </figure>
             <div class="contenido">
-                <h3>Sobre mi</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis ex quae, ipsa consequatur illum, eveniet repellendus 
-                    odit quasi eligendi numquam beatae eaque quod hic labore deleniti. Rem est quos perferendis.</p>
-                <a href="Sobre mi.html">Leer mas</a>
+                <h3>Tipos de Cannabis</h3>
+                <p>Informacion sobre los tipos de cannabis mas afondo. Ingresa para que estes informado. Y sepas cual utilizar y para que sintomas.</p>
+                <a href="https://thetreecbd.com/es/blog/tipos-de-marihuana">Leer mas</a>
             </div>
 </div>
 
